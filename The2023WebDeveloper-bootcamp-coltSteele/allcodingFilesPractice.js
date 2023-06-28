@@ -1,0 +1,1 @@
+/* we need to understand that main difference between null and undefined */
