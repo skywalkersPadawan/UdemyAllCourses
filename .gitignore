@@ -2,3 +2,5 @@ node_modules/
 package-lock.json
 package.json
 .DS_Store
+
+# This is now working and removing all the node_modules in the current working directory
