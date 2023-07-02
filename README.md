@@ -1,2 +1,2 @@
 # UdemyAllCourses
-This repo contains all the code, projects and exercises from the udemy courses
+This repo contains all the code, projects, and exercises from the Udemy courses
