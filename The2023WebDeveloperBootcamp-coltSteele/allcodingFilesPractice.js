@@ -1,13 +1,7 @@
-let rating = parseInt(
-    prompt(
-        'enter the value of the rating to give to the customer in the line: '
-    )
-);
-if (rating === 2) {
-    console.log('this is the best thing to happen your rating is ', rating);
-} else {
-    console.log(
-        'this is not good any rating other than 2 is a bad omen so check again your rating is as follows ',
-        rating
-    );
-}
+// now we will be learning about the modifying of objects
+const midterms = { danielle: 96, thomas: 78 };
+console.log(midterms);
+// now we should be changing thomas score
+midterms.thomas = 79;
+console.log(midterms);
+// now the container value will be changed and will reflect the new value
