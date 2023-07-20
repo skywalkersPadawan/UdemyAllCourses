@@ -1,4 +1,10 @@
-const animals = ['lions', 'tigers', 'bears'];
-for (let i = 0; i <= animals.length; i++) {
-    console.log([i], animals[i]);
+// the use of the return keyword
+function add(firstNumber, secondNumber) {
+    if (typeof firstNumber !== 'number' || typeof secondNumber !== 'number') {
+        return false;
+    }
+    return firstNumber + secondNumber;
 }
+
+const result = add(1, 3);
+console.log(result);
