@@ -1,10 +1,28 @@
-// the use of the return keyword
-function add(firstNumber, secondNumber) {
-    if (typeof firstNumber !== 'number' || typeof secondNumber !== 'number') {
-        return false;
-    }
-    return firstNumber + secondNumber;
-}
+// making a math object
+const myMath = {
+    PI: 3.1424,
+    square: function (number) {
+        return number ** 2;
+    },
+    cube: function (number) {
+        return number ** 3;
+    },
+};
 
-const result = add(1, 3);
-console.log(result);
+console.log(myMath.PI);
+console.log(myMath.square(5));
+console.log(myMath.cube(5));
+
+// we would not need the function specified so the following will also work
+/* 
+const myMath = {
+    PI: 3.1424,
+    square(number) {
+        return number ** 2;
+    },
+    cube(number) {
+        return number ** 3;
+    },
+};
+
+*/
