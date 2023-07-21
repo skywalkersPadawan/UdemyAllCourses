@@ -1,2 +1,1 @@
-// introduction to the DOM
-// now we will be learning about css class called classList
+// now let us talk about removing elements and removing child
